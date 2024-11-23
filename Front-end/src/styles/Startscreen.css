@@ -1,0 +1,120 @@
+/* General styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* Navbar styling */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: #00796b;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+
+.enroll-button {
+    background-color: #00796b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.enroll-button:hover {
+    background-color: #005f54;
+}
+
+
+/* Content section styling */
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.text-section {
+    max-width: 50%;
+}
+
+.tagline {
+    font-size: 1rem;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.headline {
+    font-size: 2.5rem;
+    color: #ff7043;
+    margin-bottom: 20px;
+}
+
+.subtext {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+.rating {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+
+/* Images section styling */
+
+.images-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
